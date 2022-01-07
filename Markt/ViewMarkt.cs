@@ -22,7 +22,7 @@ namespace Markt
         public ViewMarkt()
         {
             InitializeComponent();
-            ReadExcel(file, iGrid, comboBox1);      
+            //ReadExcel(file, iGrid, comboBox1);      
          }
 
         static private void ReadExcel(string sFile, DataGridView iGrid, ComboBox comboBox)
