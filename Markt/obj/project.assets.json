@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\Markt2022\\Markt\\Markt.csproj",
+      "projectUniqueName": "C:\\Development\\Markt\\Markt\\Markt.csproj",
       "projectName": "Markt",
-      "projectPath": "E:\\Development\\Markt2022\\Markt\\Markt.csproj",
+      "projectPath": "C:\\Development\\Markt\\Markt\\Markt.csproj",
       "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
-      "outputPath": "E:\\Development\\Markt2022\\Markt\\obj\\",
+      "outputPath": "C:\\Development\\Markt\\Markt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

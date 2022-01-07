@@ -16,7 +16,7 @@ namespace Markt
     public partial class ViewMarkt : Form
 
     {
-        private string file = @"C:\Desktop\Gewürzliste";
+        private string file = @"";
         private ComboBox list = new ComboBox();
 
         public ViewMarkt()
