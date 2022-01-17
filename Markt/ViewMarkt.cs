@@ -16,13 +16,19 @@ namespace Markt
     public partial class ViewMarkt : Form
 
     {
-        private string file = @"";
+        private string file = @"C:\Development\Markt\Markt\Markt\Gewürzliste";
+        
         private ComboBox list = new ComboBox();
+
+     
+        
+        
 
         public ViewMarkt()
         {
             InitializeComponent();
-            //ReadExcel(file, iGrid, comboBox1);      
+            ReadExcel(file, iGrid, comboBox1);
+            monthCalendar1.SelectionStart = DateTime.Now.AddYears(2);
          }
 
         static private void ReadExcel(string sFile, DataGridView iGrid, ComboBox comboBox)
@@ -80,7 +86,8 @@ namespace Markt
 
         private void datenUbertragen_Click(object sender, EventArgs e)
         {
-
+            DataTable dt = new DataTable();
+          
         }
 
         private void btnExceltable_Click(object sender, EventArgs e)
@@ -148,7 +155,7 @@ namespace Markt
             {
                 monthCalendar1.Left = pictureBox1.Left + 30;
                 monthCalendar1.Top = pictureBox1.Top;
-                monthCalendar1.Visible = false;
+                monthCalendar1.Visible = true;
             }
 
            

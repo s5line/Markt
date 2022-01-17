@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Markt\\Markt\\Markt.csproj": {}
+    "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Markt\\Markt\\Markt.csproj": {
+    "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Markt\\Markt\\Markt.csproj",
+        "projectUniqueName": "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj",
         "projectName": "Markt",
-        "projectPath": "C:\\Development\\Markt\\Markt\\Markt.csproj",
+        "projectPath": "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj",
         "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Markt\\Markt\\obj\\",
+        "outputPath": "C:\\Development\\Markt\\Markt\\Markt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
