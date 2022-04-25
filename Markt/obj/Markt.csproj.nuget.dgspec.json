@@ -4,6 +4,21 @@
     "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj": {}
   },
   "projects": {
+    "C:\\Development\\Markt\\Markt\\Library\\Library.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Markt\\Markt\\Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "C:\\Development\\Markt\\Markt\\Library\\Library.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Development\\Markt\\Markt\\Markt\\Markt.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +46,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Development\\Markt\\Markt\\Library\\Library.csproj": {
+                "projectPath": "C:\\Development\\Markt\\Markt\\Library\\Library.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

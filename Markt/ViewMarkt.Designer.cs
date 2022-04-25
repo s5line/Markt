@@ -170,7 +170,7 @@ namespace Markt
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(40, 643);
+            this.monthCalendar1.Location = new System.Drawing.Point(468, 323);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 22;
             this.monthCalendar1.Visible = false;

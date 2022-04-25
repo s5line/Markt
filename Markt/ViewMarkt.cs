@@ -29,6 +29,7 @@ namespace Markt
             InitializeComponent();
             ReadExcel(file, iGrid, comboBox1);
             monthCalendar1.SelectionStart = DateTime.Now.AddYears(2);
+            
          }
 
         static private void ReadExcel(string sFile, DataGridView iGrid, ComboBox comboBox)
@@ -59,17 +60,18 @@ namespace Markt
 
                             DataGridViewRow row = iGrid.Rows[rowid];
 
-                            row.Cells["GNAME"].Value = (string)(range.Cells[rCnt, 1] as Excel.Range).Value2;
-                            row.Cells["NAMENZUSATZ"].Value = (string)(range.Cells[rCnt, 2] as Excel.Range).Value2;
-                            row.Cells["ZUTATEN"].Value = (range.Cells[rCnt, 3] as Excel.Range).Value2;
-                            row.Cells["GEWICHT"].Value = (range.Cells[rCnt, 4] as Excel.Range).Value2;
-                            row.Cells["PREIS"].Value = (range.Cells[rCnt, 5] as Excel.Range).Value2;
+                            var name = row.Cells["GNAME"].Value = (string)(range.Cells[rCnt, 1] as Excel.Range).Value2;
+                            var zusatz = row.Cells["NAMENZUSATZ"].Value = (string)(range.Cells[rCnt, 2] as Excel.Range).Value2;
+                            var Zutaten = row.Cells["ZUTATEN"].Value = (range.Cells[rCnt, 3] as Excel.Range).Value2;
+                            var Preis = row.Cells["GEWICHT"].Value = (range.Cells[rCnt, 4] as Excel.Range).Value2;
+                            var Gewicht = row.Cells["PREIS"].Value = (range.Cells[rCnt, 5] as Excel.Range).Value2;
 
                             //Combobox füllen
                             comboBox.Items.Add(row.Cells["GNAME"].Value);
-                                                       
+
+                            Library.DbConnection.sqlQeury($"INSERT INTO Gewuerze (name, Zusatz, Zutaten, Preis, Gewicht) VALUES( {name},{zusatz} ,{Zutaten} ,{Preis} , {Gewicht}) ");
                         }
-                        catch { }
+                        catch {}
                     }
                 }
 

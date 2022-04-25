@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "039cc92c-771d-429e-925c-696bd2a293b4": {
+      "ProjectGuid": "039cc92c-771d-429e-925c-696bd2a293b4",
+      "DisplayName": "Markt",
+      "ColorIndex": 0
+    },
+    "7f1e86f9-6a19-4f19-9cef-6ced7932ec2a": {
+      "ProjectGuid": "7f1e86f9-6a19-4f19-9cef-6ced7932ec2a",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "9447cbe5-eedb-4b7a-bb2f-34716e2e575d": {
+      "ProjectGuid": "9447cbe5-eedb-4b7a-bb2f-34716e2e575d",
+      "DisplayName": "Library",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

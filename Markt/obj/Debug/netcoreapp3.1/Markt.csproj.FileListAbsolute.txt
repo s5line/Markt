@@ -38,3 +38,7 @@ C:\Development\Markt\Markt\Markt\obj\Debug\netcoreapp3.1\Markt.csproj.CoreCompil
 C:\Development\Markt\Markt\Markt\obj\Debug\netcoreapp3.1\Markt.dll
 C:\Development\Markt\Markt\Markt\obj\Debug\netcoreapp3.1\Markt.pdb
 C:\Development\Markt\Markt\Markt\obj\Debug\netcoreapp3.1\Markt.genruntimeconfig.cache
+C:\Development\Markt\Markt\Markt\bin\Debug\netcoreapp3.1\DBMarkt.db
+C:\Development\Markt\Markt\Markt\bin\Debug\netcoreapp3.1\Library.dll
+C:\Development\Markt\Markt\Markt\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Development\Markt\Markt\Markt\obj\Debug\netcoreapp3.1\Markt.csproj.CopyComplete
